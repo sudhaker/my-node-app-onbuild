@@ -21,15 +21,6 @@ $ cd my-node-app-onbuild/
 
 ```
 $ docker rmi -f "$(basename $(pwd))"
-Untagged: my-node-app-onbuild:latest
-Deleted: sha256:ee698c0e363ce223e7be9a7852703eb9d55cf2a1d0eaa5b1cb62206729f592c8
-Deleted: sha256:f21b400ec3ff45a402ebda7d6bc2b892a902c28ad8da6fafb7dfaf445b50aaf2
-Deleted: sha256:23fbc60f3aaff8f1cdef3cfb472a4915eecfbb271c8abb14142d5dc865ea10c0
-Deleted: sha256:af3d094378844e88fa79d20cc90f43a413c7958d235119ef59f054aeff07337b
-Deleted: sha256:d818f12e611b148c8d22ac1d0a4e31f5f903fdd3a5f25ef9c231cbfa400e13bc
-Deleted: sha256:de67adfd0a4ba894a79f75a557d14b06d7209b18fe3d60ad8515a1a46c0e3fa6
-Deleted: sha256:57d0b9228d0f923f535fe201bd584868084b805fa1eee5a3ee46e446153d7c47
-Deleted: sha256:983ef526626e56e6f2bfa39ce797e5ac7386042f3d9533ea4c96775eadd4cf5d
 ```
 
 ```
@@ -78,4 +69,4 @@ npm info lifecycle my-node-app@0.0.1~start: my-node-app@0.0.1
 Server listening on: http://b94d91fb8928:8080
 ```
 
-** Enjoy! **
+**Enjoy!**
